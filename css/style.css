@@ -17,12 +17,27 @@ margin:auto;
 }
 
 .intestazione, .piedipagina{
-    height: 50px;
+    height: 70px;
     margin:10px 0;
     width:100%;
-    background-color: #e579e6;
+    /* background-color: #e579e6; */
     
 } 
+.logo{
+    height: 100%;
+    border-right: 2px solid lightgray;
+    padding-right: 5px;
+}
+li{
+    display: inline-block;
+}
+.navigazione{
+    margin: 40px 0;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
 .piedipagina{
     background-color: #8801fe;
 }
