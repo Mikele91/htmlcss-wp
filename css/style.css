@@ -1,4 +1,4 @@
-*{
+                    *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -60,12 +60,18 @@ h3, h2{
     text-align: center;
     
 }
+.nuova-soluzione{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* con questa proprietà pogo l'immagine come background pur utilizando un img */
+}
 .sezione-1{
     width:100%;
      height: 500px; 
-     background-size: cover;
+     /* background-size: cover;
      background-position: center;
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/banner.jpg"); */
      border-radius: 10px;
      position: relative;
      overflow: hidden;
